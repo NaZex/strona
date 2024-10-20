@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUD Autocare</title>
+     <link href="css/normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+   <!-- Nagłówek -->
+   <header>
+    <div class="logo">
+        <img src="logo.png" alt="STUD Autocare Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#services">Usługi</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Sekcja O nas -->
+<section id="about">
+    <h1>O nas</h1>
+    <p>Trójka pasjonatów motoryzacji, studentów z Białegostoku, otwiera swój własny garaż detailingowy. Z pełnym zaangażowaniem zadbamy o wnętrza Waszych samochodów, przywracając im świeżość i blask. Wpadnij do nas i przekonaj się, jak nasza pasja i młoda energia mogą sprawić, że Twoje auto będzie jak nowe!</p>
+</section>
+
+<!-- Sekcja Usługi -->
+<section id="services">
+    <h2>Nasze usługi</h2>
+    <ul>
+        <li>✅ Dokładne czyszczenie wnętrza – odkurzanie i mycie wszystkich powierzchni</li>
+        <li>✅ Pranie tapicerki – usuwanie zabrudzeń z materiału i skóry</li>
+        <li>✅ Odnowa plastików i elementów wnętrza</li>
+        <li>✅ Polerowanie lamp</li>
+    </ul>
+</section>
+
+<!-- Sekcja Galeria -->
+<section id="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery-grid">
+        <img src="detailing1.jpg" alt="Czyste wnętrze samochodu">
+        <img src="detailing2.jpg" alt="Efekty polerowania reflektorów">
+    </div>
+</section>
+
+<!-- Sekcja Kontakt -->
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p>📍 ul. Komisji Edukacji Narodowej 5a, Białystok</p>
+    <p>📞 <strong>Telefon:</strong> 793 115 616, 698 297 773, 537 672 240</p>
+    <div class="qr-code">
+        <img src="qr-code.png" alt="STUD Autocare QR Code Instagram">
+    </div>
+    <form action="send-message.php" method="POST">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Wyślij wiadomość</button>
+    </form>
+</section>
+
+<!-- Stopka -->
+<footer>
+    <p>© 2024 STUD Autocare. Wszystkie prawa zastrzeżone.</p>
+    <p>Znajdź nas na Instagramie: <a href="https://www.instagram.com/stud_autocare">@stud_autocare</a></p>
+</footer>
+</body>
+</html>
